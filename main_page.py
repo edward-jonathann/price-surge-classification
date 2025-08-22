@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Flight Prediction Demo",
+st.set_page_config(page_title="Surge Price Prediction Demo",
                    layout="wide", page_icon=":airplane:")
-st.title("Flight Prediction Demo")
+st.title("Surge Price Prediction Demo")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Main Page",
                         ["Project Overview", "Prediction"])

@@ -8,7 +8,6 @@ from encoders import load_encoders
 
 # ====== Distance Simulation ======
 def calculate_distance(origin, destination):
-    # Mock distance lookup (replace with real geo-calculation if needed)
     base_distances = {
         ("Airport", "City"): 5.2,
         ("Airport", "Outstation"): 12.5,
