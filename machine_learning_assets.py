@@ -1,7 +1,7 @@
 import pickle
 
 def load_model():
-    with open("assets/model.pkl", "rb") as file:
+    with open("Assets/model.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
